@@ -28,6 +28,7 @@ const json = {
 }
 const script = document.createElement('script')
 script.setAttribute('type', 'application/ld+json')
+script.innerText = JSON.stringify(json)
 document.head.appendChild(script)
 </script>
 </body>
